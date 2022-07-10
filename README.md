@@ -1,1 +1,1 @@
-# Functional-Programming-Practical
+Scala tutorial 2 - Done
