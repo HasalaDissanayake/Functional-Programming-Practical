@@ -15,7 +15,7 @@ object  Tutorial01 {
         println(n%j);               //1
         println(m/j*j);             //4 [ (m/j)* j ]
         println(f + 10*5 + g);      //66.0
-        println(++i*n);             //scala doesn't support ++ or --
+        //println(++i*n);             //scala doesn't support ++ or --
 
     }
 }
