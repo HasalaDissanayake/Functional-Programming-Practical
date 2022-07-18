@@ -4,7 +4,7 @@ object Tutorial03{
 
     def main(args: Array[String]): Unit ={
 
-        println(volume(5));
+        printf("Volume is: %.2f",volume(5));
 
     }
 }

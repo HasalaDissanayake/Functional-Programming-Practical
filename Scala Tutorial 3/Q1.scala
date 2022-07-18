@@ -4,7 +4,7 @@ object Tutorial03 {
 
     def main(args:Array[String]):Unit ={
 
-        println(area(5));
+        printf("Area is: %.2f",area(5));
 
     }
 }

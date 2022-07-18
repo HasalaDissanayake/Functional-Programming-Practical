@@ -14,6 +14,6 @@ object Tutorial03{
 
     def main(args: Array[String]): Unit= {
 
-        println("Total wholesale cost is: Rs. "+ totalCost(40));
+        printf("Total wholesale cost is: Rs. %.2f",totalCost(60));
     }
 }
