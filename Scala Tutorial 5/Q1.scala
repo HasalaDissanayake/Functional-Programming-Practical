@@ -1,6 +1,7 @@
 object tutorial05 extends App{
 
-    def GCD(a:Int,b:Int):Int= b match{
+    // Euclid's algorithm
+    def GCD(a:Int,b:Int):Int= b match{ 
         case b if (b==0) => a;
         case b if b>a => GCD(b,a);
         case _ => GCD(b,a%b);
@@ -13,5 +14,4 @@ object tutorial05 extends App{
         case n => prime(p,n+1);
     }
 
-    println(prime(13));
-}
+    println(prime(13));}

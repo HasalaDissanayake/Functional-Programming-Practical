@@ -1,5 +1,6 @@
 object tutorial05 extends App{
 
+    //mutual recursion
     def isEven(n:Int):Boolean= n match{
         case 0 => true;
         case _ => isOdd(n-1);

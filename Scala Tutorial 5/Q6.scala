@@ -11,5 +11,6 @@ object tutorial05 extends App{
         println(fibonacci(n));
     }
 
-    fibonacciSeq(5);
+    var num = 10
+    fibonacciSeq(num-1);
 }
