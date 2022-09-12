@@ -19,7 +19,7 @@ object Tutorial06 extends App {
     val message = scala.io.StdIn.readLine("Message to encrypt: ")
 
     val encryptedTxt = cipher(encrypt, message, key, alphabetCapital, alphabetSimple)
-    val decryptedTxt = cipher(decrypt, encryptedTxt, key, alphabetCapital, alphabetSimple)
+    val decryptedTxt = cipher(decrypt, encryptedTxt, key, alphabetCapital, alphabetSimple) 
 
     printf("\nEncrypted message: %s\n",encryptedTxt)
     printf("Decrypted message: %s\n",decryptedTxt)
