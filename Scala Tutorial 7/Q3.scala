@@ -3,9 +3,10 @@ object Q3 extends App {
 
     def accCreate(nic:String, accId: Int):Unit = {
         val acc = new Account(nic, accId)
-        bank = bank ::: acc :: Nil
+        bank = bank ::: acc :: Nil 
     }
 
+    //find returns a list
     val find = (a:Int, b:List[Account]) => b.filter(account => account.accId.equals(a))
 
     
@@ -34,7 +35,7 @@ class Account(nic:String, val accId: Int, var balance: Double = 0.0){
     def transfer(account:Int, amount:Double) : Unit = {
         
         val transferAcc = Q3.find(account, Q3.bank)
-        if (balance < 0.0) println("Insufficient balance")
+        if (balance < amount) println("Insufficient balance")
         else {
             this.withdrow(amount)
             transferAcc(0).deposit(amount)
