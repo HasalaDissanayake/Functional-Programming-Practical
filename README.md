@@ -4,3 +4,4 @@ Scala tutorial 4 - Done<br>
 Scala tutorial 5 - Done<br>
 Scala tutorial 6 - Done<br>
 Scala tutorial 7 - Done<br>
+Scala tutorial 8 - Done<br>
