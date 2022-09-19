@@ -6,6 +6,7 @@ case class Point(var x: Int, var y: Int) {
         this.y = this.y + y
     }
 
+    //formular = sqrt(x^2 + y^2)
     def distance(a:Point) : Double = {
         var xDist:Int = this.x - a.x
         var yDist:Int = this.y - a.y
@@ -32,7 +33,7 @@ object Point extends App {
     println(a)
     
     var c = a.distance(b)
-    println(c)
+    printf("%1.3f\n",c)
 
     a.invert()
     println(a)
